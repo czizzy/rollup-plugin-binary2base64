@@ -1,0 +1,32 @@
+{
+  "name": "rollup-plugin-binary2base64",
+  "version": "1.0.0",
+  "description": "Converts binary files to base64 string modules",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"hello\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czizzy/rollup-plugin-binary2base64.git"
+  },
+  "keywords": [
+    "rollup-plugin",
+    "stringify",
+    "binary",
+    "base64",
+    "binary2base64"
+  ],
+  "author": "Izzy Chen <czizzychen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/czizzy/rollup-plugin-binary2base64/issues"
+  },
+  "homepage": "https://github.com/czizzy/rollup-plugin-binary2base64",
+  "devDependencies": {
+    "@rollup/pluginutils": "^3.0.8"
+  }
+}
