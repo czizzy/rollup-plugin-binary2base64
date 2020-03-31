@@ -1,5 +1,5 @@
-import { createFilter } from "@rollup/pluginutils";
-import { readFile } from "fs";
+const { createFilter } = require("@rollup/pluginutils");
+const { readFile } = require("fs");
 
 export default function binary2base64(options = {}) {
   if (!options.include) {
