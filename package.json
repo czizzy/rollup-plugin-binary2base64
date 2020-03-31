@@ -26,7 +26,7 @@
     "url": "https://github.com/czizzy/rollup-plugin-binary2base64/issues"
   },
   "homepage": "https://github.com/czizzy/rollup-plugin-binary2base64",
-  "devDependencies": {
+  "dependencies": {
     "@rollup/pluginutils": "^3.0.8"
   }
 }
