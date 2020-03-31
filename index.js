@@ -1,7 +1,7 @@
 const { createFilter } = require("@rollup/pluginutils");
 const { readFile } = require("fs");
 
-export default function binary2base64(options = {}) {
+function binary2base64(options = {}) {
   if (!options.include) {
     throw Error("include option should be specified");
   }
@@ -30,3 +30,5 @@ export default function binary2base64(options = {}) {
     }
   };
 }
+
+exports.binary2base64 = binary2base64;
